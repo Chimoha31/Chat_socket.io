@@ -8,7 +8,6 @@ import io from "socket.io-client";
 const socket = io.connect("http://localhost:5000");
 
 const App = () => {
-  console.log("test")
   const [username, setUsername] = useState("");
   const [room, setRoom] = useState("");
   return (
