@@ -1,0 +1,15 @@
+.left_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.left_person {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #D2EAF5;
+  background-color: #D2EAF5;
+  border-radius: 20px;
+  padding: 2px 15px;
+  margin: 1rem;
+}
