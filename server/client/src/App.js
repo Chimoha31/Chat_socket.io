@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import JoinForm from "./components/JoinForm";
 import io from "socket.io-client";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://chihochat-app.herokuapp.com/");
 
 const App = () => {
   const [username, setUsername] = useState("");
